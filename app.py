@@ -29,7 +29,7 @@ app.layout = html.Div(
         'fontFamily': 'Segoe UI, sans-serif',
     },
     children=[
-    html.H1(children='Pink Morsel Visualizer', style={'textAlign': 'center'}),
+    html.H1(id="header", children='Pink Morsel Visualizer', style={'textAlign': 'center'}),
     html.H2(children='Visualizing daily sales data across regions.', style={'textAlign': 'center'}),
     html.Div([
         html.Label('Select Region:', style={'fontWeight': 'bold'}),
